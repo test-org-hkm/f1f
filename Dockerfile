@@ -10,5 +10,7 @@ COPY . .
 
 EXPOSE 8000
 
+ENV PORT=8000
+
 # Use development mode for hot reloading
 CMD ["npm", "start"] 
