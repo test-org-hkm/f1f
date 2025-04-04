@@ -8,7 +8,7 @@ RUN npm install
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 8000
 
 # Use development mode for hot reloading
 CMD ["npm", "start"] 
