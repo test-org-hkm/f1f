@@ -1,0 +1,17 @@
+{
+  "github_repo_link": "https://github.com/test-org-hkm/f1f",
+  "domain_name": "f1f",
+  "cpu": "200m",
+  "ram": "512Mi",
+  "databases": {
+    "clickhouse": false,
+    "redis": false,
+    "postgres": false
+  },
+  "env_variables": {
+    "REACT_APP_API_URL": "https://f1b.sso.integ.internal.svc.movingtech.net"
+  },
+  "namespace": "utils",
+  "port": 8000,
+  "replicas": 1
+}
