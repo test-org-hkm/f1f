@@ -10,7 +10,7 @@ function App() {
   const calculateAge = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(`${process.env.REACT_APP_API_URL}/calculate-age`, {
+      const response = await axios.post(`/api/calculate-age`, {
         birth_date: birthDate
       });
       setAge(response.data.age);
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
